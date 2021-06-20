@@ -60,6 +60,19 @@ public class ReverseOfLinkedList {
         return newHead;
     }
 
+
+    private static ListNode reverseList2(ListNode head) {
+        ListNode newHead = null;
+
+        while(head != null){
+            ListNode nextNode = head.next;
+            head.next = newHead;
+            newHead = head;
+            head = nextNode;
+        }
+        return newHead;
+    }
+
 }
 
 
