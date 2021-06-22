@@ -5,11 +5,11 @@ package cn.liupu.dsa.nowcoder.top200;
  * @author: liupu1
  * @create: 2021/6/20 4:30 下午
  **/
-public class NC61_JumpFloor {
+public class NC68_JumpFloor {
 
     public static void main(String[] args) {
 
-        NC61_JumpFloor demo = new NC61_JumpFloor();
+        NC68_JumpFloor demo = new NC68_JumpFloor();
         int result = demo.jumpFloor(100);
         System.out.println(result);
 
